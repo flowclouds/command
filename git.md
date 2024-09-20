@@ -2,12 +2,16 @@
 
 ```shell
 //http || https
-git config --global http.proxy 127.0.0.1:7890
-git config --global https.proxy 127.0.0.1:7890
+git config --global http.proxy 127.0.0.1:10809
+git config --global https.proxy 127.0.0.1:10809
 
 //sock5代理
-git config --global http.proxy socks5 127.0.0.1:7891
-git config --global https.proxy socks5 127.0.0.1:7891
+git config --global http.proxy socks5 127.0.0.1:10808
+git config --global https.proxy socks5 127.0.0.1:10808
+```
+# 针对域名设置代理
+```shell 
+git config --global http.https://github.com.proxy http://127.0.0.1:10809
 ```
 
 # 查看代理：
@@ -23,4 +27,7 @@ git config --global --get https.proxy
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 ```
-
+# 查看git的设置
+```shell 
+git config --global --list
+```
