@@ -8,5 +8,5 @@ ssh-keygen
 
 ```shell
 ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
-ssh-copy-id -i root@192.168.235.22
+ssh-copy-id -i -p51002 root@172.30.21.139
 ```
