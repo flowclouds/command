@@ -31,3 +31,14 @@ git config --global --unset https.proxy
 ```shell 
 git config --global --list
 ```
+# 全局修改
+```shell 
+git config --global user.name "Tony"
+git config --global user.email "abc@qq.com"
+```
+# 局部修改
+
+```shell 
+git config user.name "Tony"
+git config user.email "abc@qq.com"
+```
