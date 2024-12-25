@@ -7,8 +7,8 @@ ssh-keygen
 # 2.上传公钥到服务器
 
 ```shell
-ssh-copy-id -i ~/.ssh/id_rsa.pub root@192.168.235.22
-ssh-copy-id -i -p51002 root@172.30.21.139
+ssh-copy-id -i ~/.ssh/id_rsa.pub root@172.30.21.141
+ssh-copy-id -i -p51002 root@172.30.21.141
 ```
 
 # 3.从远程复制到本地
